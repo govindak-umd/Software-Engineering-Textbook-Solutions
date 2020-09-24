@@ -1,0 +1,5 @@
+govind@govind:~/808X/Assignments/Week 3/SoftwareEngineering_9_4/SoftwareEngineering_9_4$ cpplint $( find . -name \*.hpp -or -name \*.cpp | grep -vE -e "^./build/" -e "^./vendor/" -e "^./docs/" -e "^./results" )
+./app/main.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+Done processing ./app/main.cpp
+Total errors found: 1
+
